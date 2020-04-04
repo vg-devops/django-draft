@@ -16,5 +16,7 @@ useful django options - for Linux Ubuntu
 8. --- the command prompt will change accordingly
 9. --- deactivate when requried via command: deactivate
 
-10. p.s. sometime the system requries installing zlib library for correct compiling of python packages:
+p.s. sometime the system requries installing zlib library for correct compiling of python packages:
 sudo apt install zlib1g-dev
+
+p.p.s. ensure that the following libraries are available/installed in your Ubuntu distribution for complete compilation of the downloaded python sources (sudo apt install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev)
